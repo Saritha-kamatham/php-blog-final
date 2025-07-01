@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    background-color: #007BFF;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.post-card h3 {
+    margin: 0;
+    color: #222;
+}
+
+.post-card p {
+    color: #555;
+    white-space: pre-wrap;
+}
+
+.post-card small {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+}
+
+.actions a {
+    margin-right: 10px;
+    color: #007BFF;
+    font-weight: bold;
+}
